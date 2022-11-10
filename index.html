@@ -1,5 +1,39 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+/>
 
 <div class="container">
   <h2 class="my-4">Warm-up Observable</h2>
+</div>
+
+<button id="hello">Hello</button>
+
+<div class="mb-3 card">
+  <div class="card-body">
+    <div class="mb-3">
+      <input
+        class="form-control"
+        id="temperature"
+        type="text"
+        placeholder="Temperature"
+      />
+    </div>
+
+    <div class="mb-3">
+      <select
+        class="form-select-lg mb-3"
+        placeholder="Choose value"
+        aria-label="Default select example"
+        name="convertion"
+        id="convertion"
+      >
+        <option selected>Open this select menu</option>
+        <option value="C">F -> C</option>
+        <option value="F">C -> F</option>
+      </select>
+    </div>
+
+    <span id="result">Please fill the above form</span>
+  </div>
 </div>
